@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Gilpop8663/graphQL_Learning#readme",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
