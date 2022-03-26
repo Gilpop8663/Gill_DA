@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/Gilpop8663/graphQL_Learning/issues"
   },
-  "homepage": "https://github.com/Gilpop8663/graphQL_Learning#readme"
+  "homepage": "https://github.com/Gilpop8663/graphQL_Learning#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "graphql"
+    ],
+    "ext": "js, ts, json, jsx, env, graphql"
+  }
 }
